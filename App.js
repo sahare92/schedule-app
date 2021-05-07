@@ -2,15 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Example } from './components/example'
+import { Main } from './components/main'
 import { TabViewExample } from './components/tab_view'
 
-import { UserProvider } from './components/provider/user'
+import { UserProvider, UserContext } from './components/provider/user'
 
 export default function App() {
   return (
-    // <TabViewExample></TabViewExample>
     <UserProvider>
-      <Example></Example>
+      <Main></Main>
     </UserProvider>
   );
 }
