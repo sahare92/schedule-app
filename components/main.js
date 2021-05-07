@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { UserContext } from './provider/user'
-import { TabViewExample } from './tab_view';
+import { AuthorizedMain } from './authorized_main';
 
 export class Main extends Component {
   render() {
@@ -18,7 +18,7 @@ export class Main extends Component {
               );
             } else {
               return (
-                <TabViewExample></TabViewExample>
+                <AuthorizedMain></AuthorizedMain>
               )
             }
           }

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Example } from './components/example'
 import { Main } from './components/main'
-import { TabViewExample } from './components/tab_view'
 
 import { UserProvider, UserContext } from './components/provider/user'
 

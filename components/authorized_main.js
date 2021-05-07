@@ -30,7 +30,7 @@ const LazyPlaceholder = ({ route }) => (
   </View>
 );
 
-export class TabViewExample extends React.Component {
+export class AuthorizedMain extends React.Component {
   state = {
     index: 0,
     routes: [
