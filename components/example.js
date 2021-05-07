@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
 
-export class Cat extends Component {
+export class Example extends Component {
   render() {
     return (
-      <Text>Hello, I am your cat!</Text>
+      <Text>Hello, I am your example!</Text>
     );
   }
 }

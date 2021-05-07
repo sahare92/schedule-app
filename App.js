@@ -1,15 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Cat } from './components/cat'
+// import { Example } from './components/example'
+import { TabViewExample } from './components/tab_view'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hello world!2</Text>
-      <StatusBar style="auto" />
-      <Cat />
-    </View>
+    <TabViewExample></TabViewExample>
   );
 }
 
