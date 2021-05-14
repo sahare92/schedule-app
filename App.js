@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Example } from './components/example'
 import { Main } from './components/main'
 
-import { UserProvider, UserContext } from './components/provider/user'
+import { UserProvider } from './components/provider/user'
 
 export default function App() {
   return (

@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { UserContext } from './provider/user'
 import { AuthorizedMain } from './authorized_main';
+import { UserAuthentication } from './user_authentication';
 
 export class Main extends Component {
   render() {
