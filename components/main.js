@@ -13,13 +13,13 @@ export class Main extends Component {
         {
           user =>
           {
-            if (user.id == null) {
+            if (user.username) {
               return (
-                <UserAuthentication></UserAuthentication>
+                <AuthorizedMain></AuthorizedMain>
               );
             } else {
               return (
-                <AuthorizedMain></AuthorizedMain>
+                <UserAuthentication></UserAuthentication>
               )
             }
           }
